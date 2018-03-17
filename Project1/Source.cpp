@@ -6,15 +6,13 @@
 #include"Header.h"
 
 
-using namespace std;
-
-
 void main()
 {
 	setlocale(LC_ALL, "Rus");	
 	int N;
-	printf("vvedite zadanie\n");
-	cin>>N;
+	printf("¬ведите задание\n");
+	scanf("%d", &N);
+
 	switch (N)
 
 	{
